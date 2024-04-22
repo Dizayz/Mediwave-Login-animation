@@ -51,6 +51,7 @@ onMounted(() => {
     width: 100%;
     display: flex;
     overflow: hidden;
+    background-color: white;
 }
 
 @media(max-width:950px) {
