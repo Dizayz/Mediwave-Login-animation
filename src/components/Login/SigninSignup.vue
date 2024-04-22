@@ -97,7 +97,7 @@ const Switch = () => {
 
 
 .logo-content {
-    max-width: 100px;
+    max-width: 300px;
 
 }
 
@@ -115,12 +115,14 @@ img {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
+     
 }
 
 .content p {
     padding: 0 2rem;
     font-size: 1.3rem;
     text-align: center;
+    
 }
 
 .content button {
@@ -132,6 +134,7 @@ img {
     font-weight: 600;
     cursor: pointer;
     width: 250px;
+     color: black;
 
 }
 

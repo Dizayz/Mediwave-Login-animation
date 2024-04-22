@@ -105,7 +105,7 @@ watch(login, () => {
                             </div>
                             <div class="conditions-terms"> <input type="checkbox" name="condition" id="condition"
                                     v-model="isChecked"> <label for="condition"> J'accepte les conditions
-                                    d'utilisations {{ isChecked }}</label></div>
+                                    d'utilisations</label></div>
                             <button :style="!isChecked ? { opacity: 0.7 } : { opacity: 1 }" :disabled="!isChecked">Rejoindre
                                 Mediwave</button>
 
@@ -235,6 +235,7 @@ h2 {
     text-align: center;
     max-width: 600px;
     text-transform: uppercase;
+     color: black;
 }
 
 .google {
@@ -291,6 +292,7 @@ h2 {
 label {
     font-weight: 600;
     font-size: 1rem;
+     color: black;
 }
 
 .input-container {
@@ -307,6 +309,7 @@ input {
     box-sizing: border-box;
     transition: all 0.2s ease-in-out;
     font-weight: 500;
+     color: black;
 }
 
 .usericon {
