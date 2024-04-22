@@ -29,7 +29,7 @@ watch(login, () => {
                     <div class="google-or-email">
                         <button class="google">G</button>
                         <div class="separator">
-                            <h3 style="margin: 0 6px;"> OU BIEN </h3>
+                            <h3 style="margin: 0 6px; color:black;"> OU BIEN </h3>
                         </div>
                         <div class="email">
                             <div> <label for="email"> Nom d'utilisateur ou email</label>
