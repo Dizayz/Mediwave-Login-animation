@@ -3,3 +3,8 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
+.inset-color {
+    color: black;
+    /* Set color to black */
+}
